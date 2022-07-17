@@ -1,5 +1,7 @@
 // require neccessary modules
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // function to prompt user for information to generate readme
 const promptReadMe = () => {
@@ -131,10 +133,23 @@ const promptReadMe = () => {
     ])
 }
 
+// function to create README file
+const writeToFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'README created! Check the the dist folder!'
+            });
+        })
+    });
+};
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 // function init() {}
@@ -143,4 +158,12 @@ function writeToFile(fileName, data) {}
 // init();
 
 promptReadMe()
-.then(userAnswers => console.log(userAnswers))
+.then(userAnswers => {
+    return generateMarkdown(userAnswers);
+})
+.then(readmeMarkdown => {
+    return writeToFile(readmeMarkdown);
+})
+.catch(err => {
+    console.log(err);
+  });
