@@ -1,3 +1,4 @@
+
   # README Generator
   
 
@@ -8,9 +9,8 @@
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#How-to-Contribute)
-  - [Tests](#tests)
-  - [Questions](#questions?)
+  - [Credits](#credits)
+  
 
   ## Installation
   This project uses inquirer. After cloning to your machine, please navigate to the application's root folder to install dependencies.
