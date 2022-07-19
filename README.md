@@ -17,9 +17,10 @@
 
   ## Usage
   Navigate to the application's root directory using your machine's commandline, and type "node index" to initialize the application. After answering all the prompts, check the dist folder for your new README!
+  
+  [Check out a video of this application in action here!](https://drive.google.com/file/d/1nm622PPKEFFaeBg1rQWejxCh-15iFpRc/view)
 
   
-
   ## How to Contribute
   Contributions are not being accepted at this time. Please defer to contact information at the bottom of this page for more information.
 
