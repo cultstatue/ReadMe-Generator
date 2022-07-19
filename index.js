@@ -119,7 +119,7 @@ const promptReadMe = () => {
             type: 'list',
             name: 'license',
             message: 'Please choose a license for your project(select one)',
-            choices: ['No License', 'MIT', 'GPLv3'],
+            choices: ['No License', 'MIT', 'GPLv3', 'CreativeCommons'],
             validate: licenseInput => {
                 if (licenseInput) {
                   return true;
@@ -133,7 +133,7 @@ const promptReadMe = () => {
     ])
 }
 
-// function to create README file
+// promise to create README file
 const writeToFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./dist/README.md', fileContent, err => {
@@ -166,4 +166,4 @@ promptReadMe()
 })
 .catch(err => {
     console.log(err);
-  });
+});
