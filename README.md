@@ -13,7 +13,7 @@
   - [Questions](#questions?)
 
   ## Installation
-  This project uses inquirer. After cloning to your machine, please navigate to the application's root folder to install dependencies.
+  This project uses inquirer and node.js. After cloning to your machine, please navigate to the application's root folder to install dependencies.
 
   ## Usage
   Navigate to the application's root directory using your machine's commandline, and type "node index" to initialize the application. After answering all the prompts, check the dist folder for your new README!
