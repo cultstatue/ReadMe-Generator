@@ -149,12 +149,16 @@ const writeToFile = fileContent => {
     });
 };
 
+// promise chain to generate README
 promptReadMe()
 .then(userAnswers => {
     return generateMarkdown(userAnswers);
 })
 .then(readmeMarkdown => {
     return writeToFile(readmeMarkdown);
+})
+.then(writeFileResponse => {
+  console.log(writeFileResponse.message);
 })
 .catch(err => {
     console.log(err);
