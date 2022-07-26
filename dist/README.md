@@ -1,31 +1,40 @@
 
-  # README Generator
+  # helpppp
+   
+  [![Generic badge](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io/)
   
 
   ## Description
-  This project is a simple commandline tool that allows a user to generate a quality README.md file by customizing a premade template with input. Users will be prompted to share a project name, a description, contribution guidelines, installation instructions, test examples and the option to choose from three popular licenses(or none at all). A section is also provided for a user to provide contact information in the form of a Github account and email address. This application can greatly simplify the process of creating decent README files, or provide a very strong starting point.
+  sdgsgD
 
   ## Table of Contents
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contribution](#How-to-Contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  - [License](#license)
   
 
   ## Installation
-  This project uses inquirer. After cloning to your machine, please navigate to the application's root folder to install dependencies.
+  DSGgdsG
 
   ## Usage
-  Navigate to the application's root directory using your machine's commandline, and type "node index" to initialize the application. After answering all the prompts, check the dist folder for your new README!
+  DGSFDAGFD
 
+  
+  ## License
+  This project is licensed under the MIT License.
   
 
   ## How to Contribute
-  Contributions are not being accepted at this time. Please defer to contact information at the bottom of this page for more information.
+  GFDAGFD
 
   ## Tests
-  No tests available at this time.
+  GFDAGDF
 
-  ## Questions?
+  ## Questions
   Reach out on Github via [cultstatue](https://github.com/cultstatue) or by email at saltedchurros@gmail.com.
   

@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contribution](#How-to-Contribute)
   - [Tests](#tests)
-  - [Questions](#questions?)
+  - [Questions](#questions)
   ${renderLicenseLink(data.license)}
 
   ## Installation
@@ -75,7 +75,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
-  ## Questions?
+  ## Questions
   Reach out on Github via [${data.github}](https://github.com/${data.github}) or by email at ${data.email}.
   `;
 }
